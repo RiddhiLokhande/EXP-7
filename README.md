@@ -98,7 +98,7 @@ int main() {
 ### Output
 <img width="827" alt="EXP 7 C OUTPUT" src="https://github.com/user-attachments/assets/cc7cd555-40f2-4909-af8d-382759c7d6ee">
 
-## CODE 3
+## CODE 4
 ```cpp
 
 #include<iostream>
@@ -131,9 +131,23 @@ int main() {
 ### Output
 <img width="803" alt="EXP 7 D OUTPUT" src="https://github.com/user-attachments/assets/01414e8a-ca8a-4bf3-ad47-5fbe176e9cec">
 
+## CODE 5
+```cpp
 
+#include<iostream>
+#include<string>
+using namespace std;
+int main(){
+    string a;
+    cout<<"enter any word:";
+    cin>>a;
+    cout<<"entered string is "<<a;
+    return 0;
 
-
+}
+```
+### Output
+<img width="817" alt="EXP 7 E OUTPUT" src="https://github.com/user-attachments/assets/8f1f880f-4d5a-41b5-9fb8-b6553e8e912a">
 
 
 
