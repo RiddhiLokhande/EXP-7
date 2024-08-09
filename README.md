@@ -149,6 +149,72 @@ int main(){
 ### Output
 <img width="817" alt="EXP 7 E OUTPUT" src="https://github.com/user-attachments/assets/8f1f880f-4d5a-41b5-9fb8-b6553e8e912a">
 
+## CODE 6
+```cpp
+#include<iostream> 
+#include<string> 
+using namespace std; 
+int main() { 
+string a, b; 
+cout<<"Enter strings: "; 
+cin>>a>>b; 
+cout<<"CONCATENATION: "<<a+b; 
+return 0; 
+} 
+```
+### Output
+<img width="597" alt="EXP 7 F OUTPUT" src="https://github.com/user-attachments/assets/e5c0c9fc-9ee7-416d-8c26-4b4f70f1ad37">
+
+## CODE 7
+```cpp
+#include<iostream> 
+#include<string> 
+using namespace std; 
+int main() { 
+string a; 
+cout<<"Enter string: "; 
+cin>>a; 
+    int i; 
+    for(i=a.length()-1;i>=0;i--) { 
+        cout<<a[i]; 
+    } 
+    return 0; 
+}
+```
+### Output
+<img width="610" alt="EXP 7 G OUTPUT" src="https://github.com/user-attachments/assets/d4183922-559c-4048-a81f-1845ad6bfa93">
+
+## CODE 8
+```cpp
+#include<iostream> 
+#include<string> 
+using namespace std; 
+ 
+int main() { 
+    string a; 
+    cout << "Enter a string: "; 
+    cin >> a; 
+    int n = a.length();
+    bool isPalindrome = true;
+    
+    for(int i = 0; i < n / 2; i++) { 
+        if(a[i] != a[n - i - 1]) { 
+            isPalindrome = false;
+            break;
+        } 
+    } 
+    
+    if(isPalindrome) { 
+        cout << a << " is a palindrome"; 
+    } else { 
+        cout << a << " is not a palindrome"; 
+    } 
+
+    return 0;
+} 
+```
+### Output
+<img width="613" alt="EXP 7 H OUTPUT" src="https://github.com/user-attachments/assets/5018874f-c393-41b0-98ba-450d157a17dd">
 
 
 ## Conclusion
